@@ -14,7 +14,7 @@ const Container = styled.div`
 const Arrow = styled.div`
     width: 50px;
     height: 50px;
-    background-color: #fef9f8;
+    background-color: #f6f5f5;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -32,6 +32,7 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
     height: 100%;
     display: flex;
+    transition: all 1.5s ease;
     transform: translateX(${(props) => props.slideIndex * -100}vw)
 `
 
