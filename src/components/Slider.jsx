@@ -9,6 +9,7 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
+    margin-top: 30px;
 `
 
 const Arrow = styled.div`
@@ -23,6 +24,7 @@ const Arrow = styled.div`
     top: 0;
     bottom: 0;
     margin: auto;
+    margin-bottom: 28%;
     left: ${props => props.direction === "left" && "10px"};
     right: ${props => props.direction === "right" && "10px"};
     opacity: 0.5;
@@ -47,14 +49,17 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
   height: 100%;
   flex: 1;
+  margin-left: 50px;
 `
 const Image = styled.img`
-  height: 80%;
+  height: 75%;
+  width: 105%;
 `
 
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  margin-bottom: 10%;
 `
 const Title = styled.h1`
   font-size: 70px;

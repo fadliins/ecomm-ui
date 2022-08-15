@@ -18,3 +18,18 @@ export const sliderItems = [
       desc: "Made affordable for you"
     },
   ];
+
+  export const categories = [
+    {
+      id: 1,
+      img: "https://static-ecapac.acer.com/media/wysiwyg/Mobile-Companion-Swift-_-SPin_14.jpg",
+    },
+    {
+      id: 2,
+      img: "https://static-ecapac.acer.com/media/wysiwyg/Best-Selling-Aspire-5-Slim-i3-FIX_5.JPG",
+    },
+    {
+      id: 3,
+      img: "https://static-ecapac.acer.com/media/wysiwyg/Eco-Friendly-Products-Aspire-Vero_4.jpg"
+    },
+  ];
