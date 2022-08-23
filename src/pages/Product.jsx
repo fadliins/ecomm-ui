@@ -65,6 +65,7 @@ const FilterColor = styled.div`
     border-radius: 50%;
     margin: 0 5px;
     cursor: pointer;
+    background-color: #${props => props.color};
 `
 
 const FilterSize = styled.select`
