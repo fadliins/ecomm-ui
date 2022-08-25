@@ -2,10 +2,11 @@
 // import Product from "./pages/Product";
 // import ProductList from "./pages/ProductList"
 // import Register from "./pages/Register"
-import Login from "./pages/Login";
+import Cart from "./pages/Cart";
+// import Login from "./pages/Login";
 
 const App = () => {
-  return <Login />;
+  return <Cart />;
 };
 
 export default App;
